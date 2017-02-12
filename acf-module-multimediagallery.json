@@ -1,0 +1,104 @@
+[
+    {
+        "key": "group_589f3dd790317",
+        "title": "[MODULE]\u00a0Multimedia gallery",
+        "fields": [
+            {
+                "layouts": [
+                    {
+                        "key": "589f43bcfc543",
+                        "name": "iframe",
+                        "label": "IFRAME",
+                        "display": "block",
+                        "sub_fields": [
+                            {
+                                "default_value": "",
+                                "placeholder": "",
+                                "key": "field_589f43c4fc544",
+                                "label": "URL",
+                                "name": "url",
+                                "type": "url",
+                                "instructions": "Add the URL of the website to be loaded in the iframe.",
+                                "required": 1,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                }
+                            }
+                        ],
+                        "min": "",
+                        "max": ""
+                    },
+                    {
+                        "key": "58a023e4eb465",
+                        "name": "image",
+                        "label": "Image",
+                        "display": "block",
+                        "sub_fields": [
+                            {
+                                "return_format": "array",
+                                "preview_size": "thumbnail",
+                                "library": "all",
+                                "min_width": "",
+                                "min_height": "",
+                                "min_size": "",
+                                "max_width": "",
+                                "max_height": "",
+                                "max_size": "",
+                                "mime_types": "",
+                                "key": "field_58a023e9eb466",
+                                "label": "Image",
+                                "name": "image",
+                                "type": "image",
+                                "instructions": "Select an image for the current gallery entry.",
+                                "required": 1,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                }
+                            }
+                        ],
+                        "min": "",
+                        "max": ""
+                    }
+                ],
+                "min": "",
+                "max": "",
+                "button_label": "Add gallery entry",
+                "key": "field_589f3e123d05c",
+                "label": "Gallery entries",
+                "name": "gallery_entries",
+                "type": "flexible_content",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                }
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "page"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "acf_after_title",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": 0,
+        "description": ""
+    }
+]
